@@ -20,7 +20,7 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 ##### Bio
-I am a student in the [Department of Statistics and Applied Probability](https://pstat.ucsb.edu) at UC Santa Barbara, advised by Professor [Sang-Yun Oh](https://syoh.org). Currently, I am also supervised by Professors [Alexander Petersen](http://alexanderpetersen.org), [Guo Yu](https://hugogogo.github.io), and [Wendy Meiring](http://meiring.faculty.pstat.ucsb.edu) on particular projects.
+I am a student in the [Department of Statistics and Applied Probability](https://pstat.ucsb.edu) at UC Santa Barbara, advised by Professor [Sang-Yun Oh](https://syoh.org) on my thesis. Currently, I am also supervised by Professors [Alexander Petersen](http://alexanderpetersen.org), [Guo Yu](https://hugogogo.github.io), and [Wendy Meiring](http://meiring.faculty.pstat.ucsb.edu) on particular projects.
 
 ##### Research Interests
 I am studying applications of high-dimensional statistics, graphical models, and optimization to network analysis and neuroscience data.
