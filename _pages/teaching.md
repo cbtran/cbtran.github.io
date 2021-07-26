@@ -1,11 +1,13 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Teaching
+description:
 nav: true
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
+#### As Teaching Assistant
+* PSTAT 134: Statistical Data Science (Spring 2021)
+* [CMPSC 190DF/PSTAT 197C: Capstone Project in Data Science (Spring 2021)](https://ucsb-ds-capstone-2021.github.io/welcome.html)
+* [CMPSC 190DE/PSTAT 197B: Capstone Project in Data Science (Winter 2021)](https://ucsb-ds-capstone-2021.github.io/welcome.html)
+* PSTAT 120A:  Probability and Statistics I (Fall 2020)

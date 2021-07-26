@@ -7,6 +7,17 @@
 p, h1, h2, h3, h4, h5, h6, em, div, span, strong {
   color: var(--global-text-color);
 }
+navy_text {
+  color: var(--global-theme-color);
+}
+.name {
+  font-size: 1.75rem;
+  color: var(--global-text-color);
+}
+
+article div {
+  margin-bottom: 0rem;
+}
 
 a, table.table a {
   color: var(--global-theme-color);
@@ -17,14 +28,6 @@ a, table.table a {
   &:hover:after {
     width: 100%;
   }
-}
-
-blockquote {
-  background: var(--global-bg-color);
-  border-left: 2px solid var(--global-theme-color);
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
-  font-size: 1.2rem;
 }
 
 // Math
@@ -51,13 +54,15 @@ blockquote {
 // Profile
 
 .profile {
-  margin-left: 1rem;
+  margin-left: 0.15rem;
+  margin-right: 1rem;
   width: 100%;
 
   .address {
     margin-bottom: 5px;
     margin-top: 5px;
     font-family: monospace;
+    font-size: 1.2rem;
     p {
       display: inline-block;
       margin: 0;
@@ -107,15 +112,20 @@ blockquote {
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
     &:hover {
-      color: var(--global-hover-color);
+      background-color: var(--global-footer-bg-color);
+      font-weight: none;
+      color: var(--global-footer-text-color);
+      &:hover {
+        color: var(--global-footer-text-color);
+      }
     }
   }
   .navbar-nav .nav-item.active>.nav-link {
-      background-color: inherit;
-      font-weight: bolder;
-      color: var(--global-theme-color);
+      background-color: var(--global-footer-bg-color);
+      font-weight: none;
+      color: var(--global-footer-text-color);
       &:hover {
-        color: var(--global-hover-color);
+        color: var(--global-footer-text-color);
       }
   }
   .navbar-brand.social {
@@ -173,6 +183,9 @@ blockquote {
 
 
 // News
+.news {
+  margin-top: 1rem;
+}
 
 .news table td {
   font-size: 1rem;
@@ -209,6 +222,7 @@ blockquote {
 
 // Footer
 footer.fixed-bottom {
+  text-align: center;
   background-color: var(--global-footer-bg-color);
   font-size: 0.75rem;
   .container {
@@ -226,6 +240,7 @@ footer.fixed-bottom {
 }
 
 footer.sticky-bottom {
+  text-align: center;
   border-top: 1px solid $grey-color-light;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -248,7 +263,7 @@ footer.sticky-bottom {
 
 .post-list {
   margin: 0;
-  margin-bottom: 40px;
+  margin-bottom: 0;
   padding: 0;
   li {
     border-bottom: 1px solid $grey-color-light;
@@ -304,7 +319,6 @@ footer.sticky-bottom {
 .projects {
   a {
     text-decoration: none;
-
     &:hover {
       .card-title {
         color: var(--global-theme-color);
@@ -336,8 +350,8 @@ footer.sticky-bottom {
     margin-bottom: 10px;
   }
 
-  h2.category {
-    color: $grey-color-light;
+  h4.category {
+    color: var(--global-bg-color);
     border-bottom: 1px solid $grey-color-light;
     padding-top: 0.5rem;
     margin-top: 2rem;
@@ -350,7 +364,8 @@ footer.sticky-bottom {
 // Publications
 
 .publications {
-  margin-top: 2rem;
+  margin-top: 0;
+  margin-bottom: 0;
   h1 {
     color: var(--global-theme-color);
     font-size: 2rem;
@@ -364,13 +379,13 @@ footer.sticky-bottom {
       font-size: 1.5rem;
     }
   }
-  h2.year {
-    color: $grey-color-light;
-    border-top: 1px solid $grey-color-light;
-    padding-top: 1rem;
-    margin-top: 2rem;
-    margin-bottom: -2rem;
-    text-align: right;
+  h5.year {
+    color: var(--global-text-color);
+    border-bottom: 0px solid $grey-color-light;
+    //padding-top: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
   }
   ol.bibliography {
     list-style: none;
@@ -379,6 +394,8 @@ footer.sticky-bottom {
 
     li {
       margin-bottom: 1rem;
+      margin-left: -8rem;
+      margin-right: -8rem;
       .abbr {
         height: 2rem;
         margin-bottom: 0.5rem;
@@ -415,10 +432,13 @@ footer.sticky-bottom {
           font-style: normal;
         }
       }
+      .abstract{
+        color: var(--global-theme-color);
+      }
       .links {
         a.btn {
-          color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
+          color: var(--global-theme-color);
+          border: 1px solid var(--global-theme-color);
           padding-left: 1rem;
           padding-right: 1rem;
           padding-top: 0.25rem;

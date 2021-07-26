@@ -3,9 +3,9 @@
     <!-- Nav Bar -->
     <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
     <div class="container">
-      {% if page.title != "about" %}
+      {% if page.title != "23about" %}
       <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
-       {% if site.title == "blank" %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{% else %}{{ site.title }}{% endif %}
+       {% if site.title == "blank" %}<span class="name">{{ site.first_name }} {{ site.middle_name }}  {{ site.last_name }} </span>{% else %}{{ site.title }}{% endif %}
       </a>
       {% elsif site.enable_navbar_social %}
         <!-- Social Icons -->
@@ -25,7 +25,7 @@
           <!-- About -->
           <li class="nav-item {% if page.title == 'about' %}active{% endif %}">
             <a class="nav-link" href="{{ '/' | relative_url }}">
-              about
+              About
               {% if page.title == "about" %}
                 <span class="sr-only">(current)</span>
               {% endif %}
@@ -34,16 +34,16 @@
           {% if site.blog_name %}
           <!-- Blog -->
           <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
-            <a class="nav-link" href="{{ '/blog/' | relative_url }}">
+            <!--a class="nav-link" href="{{ '/blog/' | relative_url }}">
               blog
               {% if page.title == "blog" %}
               <span class="sr-only">(current)</span>
               {% endif %}
-            </a>
+            </a-->
           </li>
           {% endif %}
           <!-- Other pages -->
-          {% assign sorted_pages = site.pages | sort: "title" %}
+          {% assign sorted_pages = site.pages | sort: "rank" %}
           {% for p in sorted_pages %}
           {% if p.nav and p.autogen == nil %}
           <li class="nav-item {% if page.title == p.title %}active{% endif %}">
@@ -57,12 +57,12 @@
           {% endif %}
           {% endfor %}
           {% if site.enable_darkmode %}
-            <div class = "toggle-container">
+            <!--div class = "toggle-container">
               <a id = "light-toggle">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
               </a>
-            </div>
+            </div-->
           {% endif %}
         </ul>
       </div>
