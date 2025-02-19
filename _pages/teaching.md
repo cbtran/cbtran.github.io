@@ -7,7 +7,8 @@ nav: true
 nav_order: 4
 ---
 ##### Teaching Assistant, UC Davis
-- STA 232A: Applied Statistics, Fall 2024.
+- STA 232B: Applied Statistics II, Winter 2025.
+- STA 232A: Applied Statistics I, Fall 2024.
 - STA 100: Applied Statistics for Biological Sciences, Winter 2024.
 - STA 013: Elementary Statistics, Fall 2023, Spring 2024.
 
