@@ -84,7 +84,7 @@ Please contact me for any issues regarding the code below.
   <div class="project-cards">
     <a href="/assets/project/FGLMtrunc/docs/index.html" class="project-card-link">
       <div class="project-card">
-        <img src="/assets/img/qfuncMM.pdf">
+        <img src="/assets/img/qfuncMM.png">
         <p class="title">qfuncMM</p>
         <p class="description"> R package of a mixed model approach to functional connectivity estimation.</p>
       </div>
@@ -92,15 +92,15 @@ Please contact me for any issues regarding the code below.
 
     <a href="/assets/project/FGLMtrunc/docs/index.html" class="project-card-link">
       <div class="project-card">
-        <img src="/assets/img/FGLMtrunc.pdf">
+        <img src="/assets/img/FGLMtrunc.jpg">
         <p class="title">FGLMtrunc</p>
         <p class="description"> R package of a truncated estimation in functional generalized linear regression models.</p>
       </div>
     </a>
 
-    <a href="https://example.com/project4" class="project-card-link">
+    <a href="/assets/project/robsel/docs/index.html" class="project-card-link">
       <div class="project-card">
-        <img src="/assets/img/robsel.pdf">
+        <img src="/assets/img/robsel.png">
         <p class="title">robsel</p>
         <p class="description">R package of an algorithm to estimate the graphical lasso regularization parameter..</p>
       </div>

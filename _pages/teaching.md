@@ -5,7 +5,6 @@ layout: archive
 classes: wide
 author_profile: true
 ---
-
 ##### As Teaching Assistant at UC Davis
 - STA 200C: Introduction to Mathematical Statistics II, Spring 2025.
 - STA 232B: Applied Statistics II, Winter 2025.
