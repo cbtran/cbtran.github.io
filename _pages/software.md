@@ -92,7 +92,7 @@ Please contact me for any issues regarding the code below.
 
     <a href="/assets/project/FGLMtrunc/docs/index.html" class="project-card-link">
       <div class="project-card">
-        <img src="/assets/img/FGLMtrunc.jpg">
+        <img src="/assets/img/FGLMtrunc.png">
         <p class="title">FGLMtrunc</p>
         <p class="description"> R package of a truncated estimation in functional generalized linear regression models.</p>
       </div>
