@@ -1,0 +1,197 @@
+--- 
+# Only the main Sass file needs front matter (the dashes are enough) search: false 
+--- 
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+a {
+  color: #286192;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover, &:active, &:visited {
+    color: #286192;
+  }
+}
+
+.masthead__menu a {
+  // padding: 0.75rem;
+  // box-shadow: none;
+  // margin:0;
+  color: #000; // Black color for menu links
+  text-decoration: none; // Optional: remove underline if needed
+  font-size: 20px;
+  background-color: #ffffff;
+
+  &:hover,
+  &:active,
+  &:visited {
+    //background-color: #286192;
+    color: #000;
+    text-decoration: none;
+    // color: #ffffff;
+    //   &:hover {
+    //     color: #ffffff;
+    //   }
+  }
+}
+
+.masthead__menu .site-title {
+  font-size: 25px;
+}
+
+// .masthead__menu a:hover, .masthead__menu a:active {
+//   color: #286192; // Ensure hover and active states are black
+// }
+
+
+
+$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+$caption-font-family: $monospace !default;
+
+$color: #286192 !default;
+
+$info-color: #286192 !default;
+$link-color: #286192 !default;
+$link-color-hover : mix(#000, $link-color, 25%) !default;
+$link-color-visited : mix(#fff, $link-color, 25%) !default;
+
+.fa-cog {
+  color: black !important;
+}
+
+.icon-cog {
+  color: black !important;
+}
+
+body {
+  font-size: 18px; // Adjust this value to whatever size you need
+  color: #000;
+}
+
+// .archive__subtitle {
+//   font-size: 1.25em;
+// }
+
+// .archive__item-title { 
+//   font-size: 16px;
+//   margin-top: 15px;
+// }
+
+html {
+  /* apply a natural box layout model to all elements */
+  box-sizing: border-box;
+  background-color: $background-color;
+  font-size: 30px; // originally 16px
+
+  ul li {
+    padding: -5px 0px -5px;
+    margin-bottom: 1px;
+  }
+
+  @include breakpoint($medium) {
+    // font-size: 18px;
+    font-size: 12px;
+  }
+
+  @include breakpoint($large) {
+    // font-size: 20px;
+    font-size: 14px;
+  }
+
+  @include breakpoint($x-large) {
+    // font-size: 22px;
+    font-size: 16px;
+  }
+}
+
+
+
+//   .footnote {
+//     // color: mix(#fff, $gray, 25%);
+//     color: black;
+//     text-decoration: none;
+//   }
+
+//   .footnotes {
+//     // color: mix(#fff, $gray, 25%);
+//     color: black;
+
+//     ol,
+//     li,
+//     p {
+//       margin-bottom: 0;
+//       font-size: $type-size-5;
+//     }
+//   }
+
+.centered-content figure {
+  display: flex;
+  flex-direction: column;
+  /* Ensure caption stays below the image */
+  align-items: center;
+  /* Horizontally centers the image and caption */
+  margin: 20px auto;
+  /* Centers the figure itself and adds vertical spacing */
+}
+
+
+// Projects
+// .project-cards {
+//   display: grid;
+//   grid-template-columns: repeat(2, 1fr);
+//   /* Two equal-width columns */
+//   gap: 20px;
+//   width: 100%;
+//   padding: 0 20px;
+// }
+
+// @media (max-width: 700px) {
+//   .project-cards {
+//     grid-template-columns: 1fr;
+//     /* ✅ Stack cards on smaller screens */
+//   }
+// }
+
+// .project-card-link {
+//   text-decoration: none;
+//   color: inherit;
+//   display: block;
+// }
+
+// .project-card {
+//   background-color: #fff;
+//   border-radius: 6px;
+//   overflow: hidden;
+//   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+//   transition: transform 0.2s ease;
+//   width: 100%;
+//   height: 100%;
+//   max-width: none;
+//   align-items: center;
+
+// }
+
+// .project-card:hover {
+//   transform: scale(1.03);
+// }
+
+// .project-card img {
+//   height: 70%;
+//   margin-top: 10px;
+//   object-fit: contain;
+// }
+
+// .project-card .title {
+//   font-size: 1.1em;
+//   text-transform: none !important;
+// }
+
+// .project-card .description {
+//   font-size: 0.9em;
+//   padding: 0 12px 16px;
+//   color: #555;
+//   line-height: 1.4;
+// }
