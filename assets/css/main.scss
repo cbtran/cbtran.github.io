@@ -16,6 +16,14 @@ a {
   }
 }
 
+i {
+  color: #000;
+
+  &:hover, &:active, &:visited {
+    color: #000;
+  }
+}
+
 .label {
   color: #286192 !important;
   text-decoration: none;
@@ -105,3 +113,28 @@ html {
     font-size: 16px;
   }
 }
+
+
+// @media (max-width: 600px) {
+//   /* Hide the Follow button */
+
+//   /* Hide just the text label next to icons */
+//   .author__urls .label {
+//     display: none !important;
+//   }
+
+//   /* Make sure icons are still visible and clickable */
+//   .author__urls a {
+//     display: inline-flex;
+//     align-items: center;
+//     justify-content: center;
+//     padding: 8px;
+//   }
+
+//   /* Optional: style icons to make them visible */
+//   .author__urls i {
+//     font-size: 1.2em;
+//     margin: 0;
+//   }
+// }
+

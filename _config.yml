@@ -115,21 +115,24 @@ analytics:
 author:
   name             : "Chau Tran"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              :
+  bio              : Statistics PhD Student @ UC Davis
   location         : 
   email            :
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+      icon: "fas fa-envelope-square ai-fw icon-pad-right"
       url: "mailto:cbtr@ucdavis.edu"
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
     #   url: "https://cbtran.github.io"
-    - label: "Google scholar"
-      icon: "fas fa-graduation-cap"
+    - label: "Google Scholar"
+      icon: "ai ai-google-scholar-square ai-fw icon-pad-right"
       url: "https://scholar.google.com/citations?user=odqayhYAAAAJ&hl=en"
+    - label: "GitHub"
+      icon: "fab ai-fw fa-github-square icon-pad-right"
+      url: "https://github.com/cbtran"
     - label: "Curriculum Vitae"
-      icon: "fa fa-book fa-fw"
+      icon: "ai ai-cv-square ai-fw icon-pad-right"
       url: "/assets/files/chautran_cv.pdf"
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
@@ -137,9 +140,7 @@ author:
     # - label: "Facebook"
     #   icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/cbtran"
+
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"

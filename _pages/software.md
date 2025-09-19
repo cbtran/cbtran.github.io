@@ -1,6 +1,6 @@
 ---
 title: "Software"
-layout: single
+layout: archive
 permalink: /software/
 classes: wide
 author_profile: true
