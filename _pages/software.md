@@ -82,7 +82,7 @@ Please contact me for any issues regarding the code below.
 <body>
 
   <div class="project-cards">
-    <a href="/assets/project/FGLMtrunc/docs/index.html" class="project-card-link">
+    <a href="https://github.com/cbtran/qfuncMM" class="project-card-link">
       <div class="project-card">
         <img src="/assets/img/qfuncMM.png">
         <p class="title">qfuncMM</p>
@@ -102,7 +102,7 @@ Please contact me for any issues regarding the code below.
       <div class="project-card">
         <img src="/assets/img/robsel.png">
         <p class="title">robsel</p>
-        <p class="description">R package of an algorithm to estimate the graphical lasso regularization parameter..</p>
+        <p class="description">R package of an algorithm to estimate the graphical lasso regularization parameter.</p>
       </div>
     </a>
   </div>
