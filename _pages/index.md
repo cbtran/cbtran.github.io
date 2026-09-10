@@ -11,8 +11,6 @@ author_profile: true
 
 # About me
 
-I am a 3rd year PhD student in Statistics at [UC Davis](https://statistics.ucdavis.edu) advised by [Xiaodong Li](https://www.stat.ucdavis.edu/~xdgli/). I am broadly interested in high-dimensional statistics and machine learning.
+I am a 4th year PhD student in Statistics at [UC Davis](https://statistics.ucdavis.edu) advised by [Xiaodong Li](https://www.stat.ucdavis.edu/~xdgli/). I am broadly interested in high-dimensional statistics and machine learning.
 
-I received my BA and MA in Statistics at [UC Santa Barbara](https://www.pstat.ucsb.edu), where I was supervised by [Alexander Petersen](https://statistics.byu.edu/directory/petersen-alex), [Guo Yu](https://www.pstat.ucsb.edu/people/faculty/guo-yu), [Sang-Yun Oh](https://www.pstat.ucsb.edu/people/faculty/sang-yun-oh), and [Wendy Meiring](https://www.pstat.ucsb.edu/people/faculty/wendy-meiring) on particular projects. Before coming to UC Davis, I worked at the [Artificial Intelligence in Biomedical Imaging Lab](https://aibil.med.upenn.edu) at the University of Pennsylvania.
-
-This summer 2026, I am interning at Eli Lilly's AI team for discovery research.
+I received my BA and MA in Statistics at [UC Santa Barbara](https://www.pstat.ucsb.edu), where I was supervised by [Alexander Petersen](https://statistics.byu.edu/directory/petersen-alex), [Guo Yu](https://www.pstat.ucsb.edu/people/faculty/guo-yu), [Sang-Yun Oh](https://www.pstat.ucsb.edu/people/faculty/sang-yun-oh), and [Wendy Meiring](https://www.pstat.ucsb.edu/people/faculty/wendy-meiring) on particular projects. Before coming to UC Davis, I worked at the [Artificial Intelligence in Biomedical Imaging Lab](https://aibil.med.upenn.edu) at the University of Pennsylvania. In summer 2026, I interned with Eli Lilly’s AI team, working on mRNA therapeutic discovery.
