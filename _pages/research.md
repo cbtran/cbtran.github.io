@@ -6,6 +6,11 @@ classes: wide
 author_profile: true
 ---
 
+**Inference for directions in canonical correlation analysis with partially paired data**  
+**Chau Tran** and Xiaodong Li   
+[arXiv](https://arxiv.org/abs/2610.27320) • [PDF](https://arxiv.org/pdf/2610.27320.pdf)
+
+
 **A mixed model approach for estimating regional functional connectivity from voxel-level BOLD signals**  
 Ruobin Liu, Chao Zhang, **Chau Tran**, Sophie Achard, Wendy Meiring, and Alexander Petersen   
 *Under revision at Biometrics*  
